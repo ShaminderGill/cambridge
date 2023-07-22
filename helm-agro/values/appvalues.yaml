@@ -12,7 +12,7 @@ applications:
     source:
       repoURL: https://github.com/ShaminderGill/cambridge
       targetRevision: HEAD
-      path: helm-agro/deploy/.
+      path: helm-agro/deploy/
     destination:
       server: https://kubernetes.default.svc
       namespace: las-test-app
